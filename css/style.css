@@ -6,8 +6,12 @@
     --color-title:#001a49;
 
 }
+
+html{
+    scroll-behavior: smooth;
+}
 body {
-    font-family: "Poppins", sans-serif;;
+    font-family: "Poppins", sans-serif;
 }
 
 .container{
@@ -391,6 +395,24 @@ background-size: 20px 20px;
     width: 60%;
     margin: auto;
     margin-bottom: 30px;
+}
+
+/*Form*/
+#mc_embed_signup{
+    background:#ffffff;
+    clear:left; 
+    display: grid;
+    gap: 1em;
+    }
+
+#mc_embed_signup_scroll{
+    color: var(--color-title);
+    font-size: 1rem;
+    margin-bottom: 25px;
+}
+
+section[id]{
+    scroll-margin-top: 70px;
 }
 
 /*footer*/
